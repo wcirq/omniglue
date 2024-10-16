@@ -1,8 +1,10 @@
 # 图像配准
 
-- 源于 [omniglue](https://github.com/google-research/omniglue)
+## 源于 
+- [omniglue](https://github.com/google-research/omniglue) 
+- [SuperPointPretrainedNetwork](https://github.com/magicleap/SuperPointPretrainedNetwork)
 
-# 安装
+## 安装
 
 ```
 mkdir models
@@ -24,7 +26,7 @@ wget https://storage.googleapis.com/omniglue/og_export.zip
 unzip og_export.zip && rm og_export.zip
 ```
 
-# models 目录结构
+## models 目录结构
 
     |-- models
         |-- og_export
@@ -43,7 +45,7 @@ unzip og_export.zip && rm og_export.zip
             | -- saved_model.pb
         |-- dinov2_vitb14_pretrain.pth
 
-# Demo
+## Demo
 ```shell
 # 使用usb摄像头实时特征点跟踪，测试torch版 SuperPoint
 python demo_superpoint_extract_torch.py camera --camid=0 --show_extra  
