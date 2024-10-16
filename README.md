@@ -8,15 +8,15 @@
 mkdir models
 cd models
 
-# SuperPoint.
+# 1.SuperPoint. (本仓库已包括，可不用重复下载，请跳到下一步)
 git clone https://github.com/rpautrat/SuperPoint.git
 mv SuperPoint/pretrained_models/sp_v6.tgz . && rm -rf SuperPoint
 tar zxvf sp_v6.tgz && rm sp_v6.tgz
 
-# DINOv2 - vit-b14.
+# 2.DINOv2 - vit-b14.
 wget https://dl.fbaipublicfiles.com/dinov2/dinov2_vitb14/dinov2_vitb14_pretrain.pth
 
-# OmniGlue.
+# 3.OmniGlue.
 wget https://storage.googleapis.com/omniglue/og_export.zip
 unzip og_export.zip && rm og_export.zip
 ```
