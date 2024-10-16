@@ -25,7 +25,7 @@ from omniglue import utils
 from PIL import Image
 
 
-def main(argv) -> None:
+def main() -> None:
     # image_path1 = "res/demo1.jpg"
     # image_path2 = "res/demo2.jpg"
     image_path1 = r"E:\fromwcirq\source\multimedia-lose-color-recognition\x64\Release\images\product\ll\20241015142921.jpg"
@@ -91,4 +91,4 @@ def main(argv) -> None:
 
 
 if __name__ == "__main__":
-    main(sys.argv)
+    main()

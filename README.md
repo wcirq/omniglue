@@ -31,3 +31,12 @@ unzip og_export.zip && rm og_export.zip
 -- [sp_v6](models%2Fsp_v6)
 
 -- [dinov2_vitb14_pretrain.pth](models%2Fdinov2_vitb14_pretrain.pth)
+
+# Demo
+```shell
+# 使用usb摄像头实时特征点跟踪，测试torch版 SuperPoint
+python demo_superpoint_extract_torch.py camera --camid=0 --show_extra  
+
+# 使用图片测试图像配准，测试omniglue，注意修改代码中的图片路径为自己的
+python demo.py
+```
