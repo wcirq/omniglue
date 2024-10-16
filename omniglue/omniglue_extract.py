@@ -18,7 +18,8 @@ from typing import Optional
 
 import numpy as np
 from omniglue import dino_extract
-from omniglue import superpoint_extract
+# from omniglue import superpoint_extract  # tensorflow 版
+from omniglue import superpoint_extract_torch as superpoint_extract  # torch 版
 from omniglue import utils
 import tensorflow as tf
 

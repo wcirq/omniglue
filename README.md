@@ -8,10 +8,13 @@
 mkdir models
 cd models
 
-# 1.SuperPoint. (本仓库已包括，可不用重复下载，请跳到下一步)
+# 1.1.SuperPoint. (本仓库已包括，可不用重复下载，请跳到下一步)
 git clone https://github.com/rpautrat/SuperPoint.git
 mv SuperPoint/pretrained_models/sp_v6.tgz . && rm -rf SuperPoint
 tar zxvf sp_v6.tgz && rm sp_v6.tgz
+
+# 1.2 SuperPoint torch
+from https://github.com/magicleap/SuperPointPretrainedNetwork.git
 
 # 2.DINOv2 - vit-b14.
 wget https://dl.fbaipublicfiles.com/dinov2/dinov2_vitb14/dinov2_vitb14_pretrain.pth
