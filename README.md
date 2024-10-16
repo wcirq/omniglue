@@ -26,13 +26,22 @@ unzip og_export.zip && rm og_export.zip
 
 # models 目录结构
 
--- [og_export](models%2Fog_export)
-
--- [sp_torch](models%2Fsp_torch)
-
--- [sp_v6](models%2Fsp_v6)
-
--- [dinov2_vitb14_pretrain.pth](models%2Fdinov2_vitb14_pretrain.pth)
+    |-- models
+        |-- og_export
+            |-- assets
+            |-- variables
+                |-- variables.data-00000-of-00001
+                |-- variables.index
+            | -- fingerprint.pb
+            | -- saved_model.pb
+        |-- sp_torch
+            |-- superpoint_v1.pth
+        |-- sp_v6
+            |-- variables
+                |-- variables.data-00000-of-00001
+                |-- variables.index
+            | -- saved_model.pb
+        |-- dinov2_vitb14_pretrain.pth
 
 # Demo
 ```shell
