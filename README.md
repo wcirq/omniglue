@@ -1,4 +1,4 @@
-# 图像配置 
+# 图像配准
 
 - 源于 [omniglue](https://github.com/google-research/omniglue)
 
@@ -13,7 +13,7 @@ git clone https://github.com/rpautrat/SuperPoint.git
 mv SuperPoint/pretrained_models/sp_v6.tgz . && rm -rf SuperPoint
 tar zxvf sp_v6.tgz && rm sp_v6.tgz
 
-# 1.2 SuperPoint torch
+# or 1.2 SuperPoint torch版
 from https://github.com/magicleap/SuperPointPretrainedNetwork.git
 
 # 2.DINOv2 - vit-b14.
@@ -27,6 +27,8 @@ unzip og_export.zip && rm og_export.zip
 # models 目录结构
 
 -- [og_export](models%2Fog_export)
+
+-- [sp_torch](models%2Fsp_torch)
 
 -- [sp_v6](models%2Fsp_v6)
 
